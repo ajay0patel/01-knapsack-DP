@@ -1,0 +1,7 @@
+problems based on 01 Knapsack
+
+1)subset sum problem
+2)Equal sum partition
+3)count of subset sum
+4)minium subset sum difference
+5)target sum
