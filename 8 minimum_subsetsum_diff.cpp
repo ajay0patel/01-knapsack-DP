@@ -53,6 +53,9 @@ int subsetsum(int wt[],int w,int n){
     /*for(int j=0;j<filter.size();j++){
 	    cout<<filter[j]<<" ";
 	}*/
+	//s2-s1==minimum
+	//s1+s2=sum(arr)=w
+	//w-s1-s1==minimum ->w-2s1--->minimum
 	
 	int mn=INT_MAX;
 	for(int s1=0;s1<filter.size();s1++){
