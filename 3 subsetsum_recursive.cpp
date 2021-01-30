@@ -30,8 +30,6 @@ int main() {
 	for(int i=0;i<n;i++){
 	    cin>>wt[i];
 	}
-    int dp[n+1][w+1];
-    memset(dp,-1,sizeof(dp));
     
 	subsetsum(wt,w,n) == 1 ? cout<<"YES" : cout<<"NO";
 	
